@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>无声又无息</title>
+  
+  
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://zhayes.github.io/"/>
+  <updated>2018-09-17T16:32:58.468Z</updated>
+  <id>http://zhayes.github.io/</id>
+  
+  <author>
+    <name>zha</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>抄一首诗</title>
+    <link href="http://zhayes.github.io/2018/09/18/poem1/"/>
+    <id>http://zhayes.github.io/2018/09/18/poem1/</id>
+    <published>2018-09-17T16:30:11.000Z</published>
+    <updated>2018-09-17T16:32:58.468Z</updated>
+    
+    <content type="html"><![CDATA[<p>只要再克制一下，我就会解脱<br>这割裂我内心的阵阵绞痛；<br>最后一次对你和爱情长叹过，<br>我就要再回到忙碌的人生。<br>我如今随遇而安，善于混日子，<br>尽管这种种从未使我喜欢；<br>纵然世上的乐趣都已飞逝，<br>有什么悲哀能再使我心酸？<br><a id="more"></a></p><p>给我拿酒来吧，给我摆上筵席，<br>人本来不适于孤独的生存；<br>我将做一个无心的浪荡子弟，<br>随大家欢笑，不要和人共悲恸。<br>在美好的日子里我不是如此，<br>我原不会这样，如果不是你，<br>逝去了，把我孤独地留下度日，<br>你化为虚无——一切也逝去了意义。</p><p>———— 拜伦《只要再克制一下》</p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;只要再克制一下，我就会解脱&lt;br&gt;这割裂我内心的阵阵绞痛；&lt;br&gt;最后一次对你和爱情长叹过，&lt;br&gt;我就要再回到忙碌的人生。&lt;br&gt;我如今随遇而安，善于混日子，&lt;br&gt;尽管这种种从未使我喜欢；&lt;br&gt;纵然世上的乐趣都已飞逝，&lt;br&gt;有什么悲哀能再使我心酸？&lt;br&gt;
+    
+    </summary>
+    
+    
+  </entry>
+  
+</feed>
