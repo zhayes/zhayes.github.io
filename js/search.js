@@ -23,7 +23,6 @@ var searchFunc = function(path, search_id, content_id) {
                 }
                 // perform local searching
                 datas.forEach(function(data) {
-                    console.log(data);
                     var isMatch = true;
                     var content_index = [];
                     var data_title = data.title.trim().toLowerCase();
