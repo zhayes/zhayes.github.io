@@ -6,7 +6,7 @@
 <p>我就不信了，Google搜起来。于是我就看到了这篇文章<a href="https://blog.csdn.net/xinhui88/article/details/52495156" target="_blank" rel="noopener">Raneto部署</a>。在文章的最后，作者给出了如下写道：</p>
 <blockquote>
 <h3 id="解决不能搜索中文的BUG"><a href="#解决不能搜索中文的BUG" class="headerlink" title="解决不能搜索中文的BUG"></a>解决不能搜索中文的BUG</h3><blockquote>
-<p>先下载一个lunr.js，链接：<a href="https://github.com/codepiano/lunr.js，解压并将文件夹命名为lunr，接下来进入node_modules目录，找到里面的lunr重命名为lunr2（不建议删除），然后再将刚下载的lunr复制进去。" target="_blank" rel="noopener">https://github.com/codepiano/lunr.js，解压并将文件夹命名为lunr，接下来进入node_modules目录，找到里面的lunr重命名为lunr2（不建议删除），然后再将刚下载的lunr复制进去。</a><br>还要改一个地方，进入node_modules/raneto-core/node_modules目录，刚上面那个是一样的，将这里的lunr重命名为lunr2，再将刚下载的lunr复制进去。<br>再次重启，这里重启的时候可能会出现error，原因是node.js少了一些库，仔细看缺了哪些库，然后npm install </p>
+<p>先下载一个lunr.js，链接：<a href="https://github.com/codepiano/lunr.js" target="_blank" rel="noopener">https://github.com/codepiano/lunr.js</a>，解压并将文件夹命名为lunr，接下来进入node_modules目录，找到里面的lunr重命名为lunr2（不建议删除），然后再将刚下载的lunr复制进去。<br>还要改一个地方，进入node_modules/raneto-core/node_modules目录，刚上面那个是一样的，将这里的lunr重命名为lunr2，再将刚下载的lunr复制进去。<br>再次重启，这里重启的时候可能会出现error，原因是node.js少了一些库，仔细看缺了哪些库，然后npm install </p>
 </blockquote>
 </blockquote>
 <p>然后我很兴奋啊，跟着步骤来啊。但是，我居然发现我找不到node_modules/raneto-core这个文件夹！</p>
