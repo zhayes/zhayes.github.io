@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://zhayes.github.io/about/index.html</loc>
+    
+    <lastmod>2018-12-15T10:46:37.233Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://zhayes.github.io/2018/12/11/zipPython/</loc>
     
     <lastmod>2018-12-11T13:32:33.319Z</lastmod>
@@ -26,13 +33,6 @@
     <loc>https://zhayes.github.io/2018/12/04/mario/</loc>
     
     <lastmod>2018-12-11T12:13:07.982Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://zhayes.github.io/about/index.html</loc>
-    
-    <lastmod>2018-09-23T15:43:47.335Z</lastmod>
     
   </url>
   
