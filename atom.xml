@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://zhayes.github.io/"/>
-  <updated>2019-01-03T03:03:14.382Z</updated>
+  <updated>2019-01-09T03:55:19.264Z</updated>
   <id>https://zhayes.github.io/</id>
   
   <author>
@@ -15,6 +15,26 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>在这做一些日常搜索的笔记</title>
+    <link href="https://zhayes.github.io/2019/01/09/note/"/>
+    <id>https://zhayes.github.io/2019/01/09/note/</id>
+    <published>2019-01-09T03:47:11.000Z</published>
+    <updated>2019-01-09T03:55:19.264Z</updated>
+    
+    <content type="html"><![CDATA[<p><img src="https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=1200&amp;q=20" alt=""><br><a id="more"></a></p><h2 id="在这做一些日常搜索的笔记"><a href="#在这做一些日常搜索的笔记" class="headerlink" title="在这做一些日常搜索的笔记"></a>在这做一些日常搜索的笔记</h2><h4 id="当使用makemigrations时报错No-changes-detected："><a href="#当使用makemigrations时报错No-changes-detected：" class="headerlink" title="当使用makemigrations时报错No changes detected："></a>当使用makemigrations时报错No changes detected：</h4><p>(转<a href="https://blog.csdn.net/qq_39291784/article/details/78397589" target="_blank" rel="noopener">https://blog.csdn.net/qq_39291784/article/details/78397589</a>)</p><p>在修改了models.py后，有些用户会喜欢用python manage.py makemigrations生成对应的py代码。</p><p>但有时执行python manage.py makemigrations命令（也可能人比较皮，把migrations文件夹给删了），会提示”No changes detected.” 可能有用的解决方式如下：</p><p>先 python manage.py makemigrations –empty yourappname 生成一个空的initial.py</p><p>再 python manage.py makemigrations 生成原先的model对应的migration file</p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;img src=&quot;https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?ixlib=rb-1.2.1&amp;amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;amp;auto=format&amp;amp;fit=crop&amp;amp;w=1200&amp;amp;q=20&quot; alt=&quot;&quot;&gt;&lt;br&gt;
+    
+    </summary>
+    
+    
+      <category term="Python" scheme="https://zhayes.github.io/tags/Python/"/>
+    
+  </entry>
   
   <entry>
     <title>深刻理解Python中的元类(metaclass)（转）</title>
