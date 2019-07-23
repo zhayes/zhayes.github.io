@@ -1,22 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://zhayes.github.io/2019/01/09/note/</loc>
-    <lastmod>2019-02-27T01:37:23.969Z</lastmod>
-  </url>  <url>
-    <loc>https://zhayes.github.io/2019/01/01/metaclass/</loc>
-    <lastmod>2019-01-03T03:03:14.382Z</lastmod>
-  </url>  <url>
-    <loc>https://zhayes.github.io/2018/09/18/aPoem/</loc>
-    <lastmod>2018-12-23T07:05:49.422Z</lastmod>
+    <loc>https://zhayes.github.io/2019/04/20/zhaku/</loc>
+    <lastmod>2019-07-23T09:23:07.990Z</lastmod>
   </url>  <url>
     <loc>https://zhayes.github.io/2018/12/11/zipPython/</loc>
-    <lastmod>2018-12-23T06:28:08.520Z</lastmod>
+    <lastmod>2019-07-23T09:11:42.673Z</lastmod>
   </url>  <url>
     <loc>https://zhayes.github.io/2018/12/04/mario/</loc>
-    <lastmod>2018-12-23T06:27:21.080Z</lastmod>
+    <lastmod>2019-07-23T09:09:37.725Z</lastmod>
+  </url>  <url>
+    <loc>https://zhayes.github.io/2019/01/01/metaclass/</loc>
+    <lastmod>2019-07-23T09:08:46.831Z</lastmod>
+  </url>  <url>
+    <loc>https://zhayes.github.io/2019/01/09/note/</loc>
+    <lastmod>2019-07-23T09:08:12.310Z</lastmod>
   </url>  <url>
     <loc>https://zhayes.github.io/2018/09/20/ranetoLurn/</loc>
-    <lastmod>2018-12-11T12:13:32.650Z</lastmod>
+    <lastmod>2019-07-23T09:07:59.393Z</lastmod>
+  </url>  <url>
+    <loc>https://zhayes.github.io/2018/09/18/aPoem/</loc>
+    <lastmod>2019-07-23T09:06:03.688Z</lastmod>
   </url>
 </urlset>
