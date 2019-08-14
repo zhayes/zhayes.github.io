@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://zhayes.github.io/2018/12/11/zipPython/</loc>
+    <lastmod>2019-08-14T02:23:38.089Z</lastmod>
+  </url>  <url>
     <loc>https://zhayes.github.io/2019/08/12/linearAlgebra/</loc>
-    <lastmod>2019-08-12T08:59:03.073Z</lastmod>
+    <lastmod>2019-08-14T02:18:35.233Z</lastmod>
   </url>  <url>
     <loc>https://zhayes.github.io/2018/09/20/ranetoLurn/</loc>
     <lastmod>2019-08-12T08:45:42.180Z</lastmod>
@@ -12,9 +15,6 @@
   </url>  <url>
     <loc>https://zhayes.github.io/2019/04/20/zhaku/</loc>
     <lastmod>2019-07-23T09:23:07.990Z</lastmod>
-  </url>  <url>
-    <loc>https://zhayes.github.io/2018/12/11/zipPython/</loc>
-    <lastmod>2019-07-23T09:11:42.673Z</lastmod>
   </url>  <url>
     <loc>https://zhayes.github.io/2018/12/04/mario/</loc>
     <lastmod>2019-07-23T09:09:37.725Z</lastmod>
