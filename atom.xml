@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://zhayes.github.io/"/>
-  <updated>2019-09-01T14:10:39.764Z</updated>
+  <updated>2019-09-05T13:36:46.562Z</updated>
   <id>https://zhayes.github.io/</id>
   
   <author>
@@ -15,6 +15,28 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>协方差的意义</title>
+    <link href="https://zhayes.github.io/2019/09/05/covariance/"/>
+    <id>https://zhayes.github.io/2019/09/05/covariance/</id>
+    <published>2019-09-05T13:20:12.000Z</published>
+    <updated>2019-09-05T13:36:46.562Z</updated>
+    
+    <content type="html"><![CDATA[<p><img src="https://gss2.bdstatic.com/9fo3dSag_xI4khGkpoWK1HF6hhy/baike/s%3D340/sign=6005955212dfa9ecf92e501352d1f754/359b033b5bb5c9ea8718f4add639b6003bf3b391.jpg" alt=""></p><a id="more"></a><hr><p><a href="https://blog.csdn.net/wuhzossibility/article/details/8087863" target="_blank" rel="noopener">原文链接地址</a></p><p>在概率论中，两个随机变量 X 与 Y 之间相互关系，大致有下列3种情况：</p><p><img src="https://img-my.csdn.net/uploads/201210/18/1350573643_1765.jpg" alt=""></p><p>当 X, Y 的联合分布像上图那样时，我们可以看出，大致上有： X 越大  Y 也越大， X 越小  Y 也越小，这种情况，我们称为“正相关”。</p><p><img src="https://img-my.csdn.net/uploads/201210/18/1350573766_4458.jpg" alt=""></p><p>当X, Y 的联合分布像上图那样时，我们可以看出，大致上有：X 越大Y 反而越小，X 越小 Y 反而越大，这种情况，我们称为“负相关”。</p><p><img src="https://img-my.csdn.net/uploads/201210/18/1350573858_7400.jpg" alt=""></p><p>当X, Y  的联合分布像上图那样时，我们可以看出：既不是X  越大Y 也越大，也不是 X 越大 Y 反而越小，这种情况我们称为“不相关”。</p><p>怎样将这3种相关情况，用一个简单的数字表达出来呢？</p><p>在图中的区域（1）中，有 $X&gt;EX$ ，$Y-EY&gt;0$ ，所以$(X-EX)(Y-EY)&gt;0$；</p><p>在图中的区域（2）中，有 $X&lt;EX$ ，$Y-EY&gt;0$ ，所以$(X-EX)(Y-EY)&lt;0$；</p><p>在图中的区域（3）中，有 $X&lt;EX$ ，$Y-EY&lt;0$ ，所以$(X-EX)(Y-EY)&gt;0$；</p><p>在图中的区域（4）中，有 $X&gt;EX$ ，$Y-EY&lt;0$ ，所以$(X-EX)(Y-EY)&lt;0$。</p><p>当X 与Y 正相关时，它们的分布大部分在区域（1）和（3）中，小部分在区域（2）和（4）中，所以平均来说，有$E(X-EX)(Y-EY)&gt;0$ 。</p><p>当 X与 Y负相关时，它们的分布大部分在区域（2）和（4）中，小部分在区域（1）和（3）中，所以平均来说，有$(X-EX)(Y-EY)&lt;0$ 。</p><p>当 X与 Y不相关时，它们在区域（1）和（3）中的分布，与在区域（2）和（4）中的分布几乎一样多，所以平均来说，有$(X-EX)(Y-EY)=0$ 。</p><p>所以，我们可以定义一个表示X, Y 相互关系的数字特征，也就是协方差</p><p>$$cov(X, Y) = E(X-EX)(Y-EY)$$</p><p>当 $cov(X, Y)&gt;0$时，表明 $X$与$Y$ 正相关；</p><p>当 $cov(X, Y)&lt;0$时，表明$X$与$Y$负相关；</p><p>当 $cov(X, Y)=0$时，表明$X$与$Y$不相关。</p><p>这就是协方差的意义。</p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;img src=&quot;https://gss2.bdstatic.com/9fo3dSag_xI4khGkpoWK1HF6hhy/baike/s%3D340/sign=6005955212dfa9ecf92e501352d1f754/359b033b5bb5c9ea8718f4add639b6003bf3b391.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="数学" scheme="https://zhayes.github.io/categories/%E6%95%B0%E5%AD%A6/"/>
+    
+    
+      <category term="协方差" scheme="https://zhayes.github.io/tags/%E5%8D%8F%E6%96%B9%E5%B7%AE/"/>
+    
+  </entry>
   
   <entry>
     <title>Poisson Distribution</title>

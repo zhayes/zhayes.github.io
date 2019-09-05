@@ -1,0 +1,52 @@
+<!DOCTYPE html><html lang="zh-CN"><head><meta http-equiv="content-type" content="text/html; charset=utf-8"><meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport"><meta content="yes" name="apple-mobile-web-app-capable"><meta content="black-translucent" name="apple-mobile-web-app-status-bar-style"><meta content="telephone=no" name="format-detection"><meta name="description" content="倒渣易谛的博客,zha's blog of hexo"><title>协方差的意义 | 倒渣易谛</title><link rel="stylesheet" type="text/css" href="/css/style.css?v=0.0.0"><link rel="stylesheet" type="text/css" href="//cdn.bootcss.com/normalize/8.0.0/normalize.min.css"><link rel="stylesheet" type="text/css" href="//cdn.bootcss.com/pure/1.0.0/pure-min.css"><link rel="stylesheet" type="text/css" href="//cdn.bootcss.com/pure/1.0.0/grids-responsive-min.css"><link rel="stylesheet" href="//cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css"><script type="text/javascript" src="//cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script><link rel="Shortcut Icon" type="image/x-icon" href="/favicon.ico"><link rel="apple-touch-icon" href="/apple-touch-icon.png"><link rel="apple-touch-icon-precomposed" href="/apple-touch-icon.png"><link rel="alternate" type="application/atom+xml" href="/atom.xml"></head><body><div class="body_container"><div id="header"><div class="site-name"><h1 class="hidden">协方差的意义</h1><a id="logo" href="/.">倒渣易谛</a><p class="description">地炉茶鼎烹活火，一清足称读书者</p></div><div id="nav-menu"><a class="current" href="/."><i class="fa fa-home"> 首页</i></a><a href="/archives/"><i class="fa fa-archive"> 归档</i></a><a href="/atom.xml"><i class="fa fa-rss"> 订阅</i></a></div></div><div class="pure-g" id="layout"><div class="pure-u-1 pure-u-md-3-4"><div class="content_container"><div class="post"><h1 class="post-title">协方差的意义</h1><div class="post-meta">2019-09-05 21:20:12<span> | </span><span class="category"><a href="/categories/数学/">数学</a></span></div><a class="disqus-comment-count" href="/2019/09/05/covariance/#vcomment"><span class="valine-comment-count" data-xid="/2019/09/05/covariance/"></span><span> 条评论</span></a><div class="post-content"><p><img src="https://gss2.bdstatic.com/9fo3dSag_xI4khGkpoWK1HF6hhy/baike/s%3D340/sign=6005955212dfa9ecf92e501352d1f754/359b033b5bb5c9ea8718f4add639b6003bf3b391.jpg" alt=""></p>
+<a id="more"></a>
+<hr>
+<p><a href="https://blog.csdn.net/wuhzossibility/article/details/8087863" target="_blank" rel="noopener">原文链接地址</a></p>
+<p>在概率论中，两个随机变量 X 与 Y 之间相互关系，大致有下列3种情况：</p>
+<p><img src="https://img-my.csdn.net/uploads/201210/18/1350573643_1765.jpg" alt=""></p>
+<p>当 X, Y 的联合分布像上图那样时，我们可以看出，大致上有： X 越大  Y 也越大， X 越小  Y 也越小，这种情况，我们称为“正相关”。</p>
+<p><img src="https://img-my.csdn.net/uploads/201210/18/1350573766_4458.jpg" alt=""></p>
+<p>当X, Y 的联合分布像上图那样时，我们可以看出，大致上有：X 越大Y 反而越小，X 越小 Y 反而越大，这种情况，我们称为“负相关”。</p>
+<p><img src="https://img-my.csdn.net/uploads/201210/18/1350573858_7400.jpg" alt=""></p>
+<p>当X, Y  的联合分布像上图那样时，我们可以看出：既不是X  越大Y 也越大，也不是 X 越大 Y 反而越小，这种情况我们称为“不相关”。</p>
+<p>怎样将这3种相关情况，用一个简单的数字表达出来呢？</p>
+<p>在图中的区域（1）中，有 $X&gt;EX$ ，$Y-EY&gt;0$ ，所以$(X-EX)(Y-EY)&gt;0$；</p>
+<p>在图中的区域（2）中，有 $X&lt;EX$ ，$Y-EY&gt;0$ ，所以$(X-EX)(Y-EY)&lt;0$；</p>
+<p>在图中的区域（3）中，有 $X&lt;EX$ ，$Y-EY&lt;0$ ，所以$(X-EX)(Y-EY)&gt;0$；</p>
+<p>在图中的区域（4）中，有 $X&gt;EX$ ，$Y-EY&lt;0$ ，所以$(X-EX)(Y-EY)&lt;0$。</p>
+<p>当X 与Y 正相关时，它们的分布大部分在区域（1）和（3）中，小部分在区域（2）和（4）中，所以平均来说，有$E(X-EX)(Y-EY)&gt;0$ 。</p>
+<p>当 X与 Y负相关时，它们的分布大部分在区域（2）和（4）中，小部分在区域（1）和（3）中，所以平均来说，有$(X-EX)(Y-EY)&lt;0$ 。</p>
+<p>当 X与 Y不相关时，它们在区域（1）和（3）中的分布，与在区域（2）和（4）中的分布几乎一样多，所以平均来说，有$(X-EX)(Y-EY)=0$ 。</p>
+<p>所以，我们可以定义一个表示X, Y 相互关系的数字特征，也就是协方差</p>
+<p>$$cov(X, Y) = E(X-EX)(Y-EY)$$</p>
+<p>当 $cov(X, Y)&gt;0$时，表明 $X$与$Y$ 正相关；</p>
+<p>当 $cov(X, Y)&lt;0$时，表明$X$与$Y$负相关；</p>
+<p>当 $cov(X, Y)=0$时，表明$X$与$Y$不相关。</p>
+<p>这就是协方差的意义。</p>
+</div><div><ul class="post-copyright"><li class="post-copyright-author"><strong>本文作者：</strong>zha</li><li class="post-copyright-link"><strong>本文链接：</strong><a href="/2019/09/05/covariance/">https://zhayes.github.io/2019/09/05/covariance/</a></li><li class="post-copyright-license"><strong>版权声明：</strong>转载请附原文地址</li></ul></div><br><script type="text/javascript" src="/js/share.js?v=0.0.0" async></script><a class="article-share-link" data-url="https://zhayes.github.io/2019/09/05/covariance/" data-id="ck06r78ji000p59m2zozoqtfg" data-qrcode="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMYAAADGCAAAAACs8KCBAAACLElEQVR42u3aS27DMAwFwNz/0ummixRB3EdSLmp5tAoCN9J4wfKjxyNez5f1+s2nZ97X+5PJLosXBgbGZRnJ9smxkkM/41V9NRgYGHdgfIpgx5+Pf+f4cL0nP36PgYGBEaR3k8A9f2UYGBgY8/q4mjhiYGBg9AJlgk8OlO91Si2OgYFxQUYeLv/+8ynzDQwMjEsxnsU15609z/cvY2BgbM3It+kNKfNBZp50ftwFAwPjBoy8jMxbdfmB8ldQkGFgYGzBWNUCmwwGjl9lcgYMDIy9GXnpmMS63hWNZa03DAyMTRn5EZsXIA4DdDUEl2+LYGBgbMGYtON7I4H8ems5DcXAwLgxozokmIw5R4kmBgbGpoxqQFwVXqsJYqFriIGBsR2jWjpOxo3VRv9oOIqBgbEpo1esJuweLB8/YGBg7M2YtL2q1HzHPCX9keFiYGBszeglhXlzrXrE/JoFBgbGfRjz5lcUFgfP/FLEYmBgbM1IQl4ScJNO3mRIWa7FMTAwtmNUA251zYvbJA3FwMC4AyMfAMwPXU06m9NXDAyM7Rj5n/WGjuVjrS1fMTAwLsvoBdNe6Zskms00EQMDY2vGPNglpWl+neI4oFfTTQwMjJ0Yq5plScCtXu9ozmMxMDA2ZfQCXx6UqylmNaHEwMDAWHV1LC+Sq99jYGBgzNteeTjOE8pT/m9gYGD8Y0ZSxCbBdB5eT6/FMTAwLsjIw+X88kTvosayoSYGBsb1GF9qF0HP9DVq6wAAAABJRU5ErkJggg==">分享</a><div class="tags"><a href="/tags/协方差/">协方差</a></div><div class="post-nav"><a class="next" href="/2019/09/01/PoissonDistribution/">Poisson Distribution</a></div><div id="vcomment"></div><script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script><script src="//unpkg.com/valine@latest/dist/Valine.min.js"></script><script>var notify = 'true' == true ? true : false;
+var verify = 'true' == true ? true : false;
+var GUEST_INFO = ['nick','mail','link'];
+var guest_info = 'nick,mail'.split(',').filter(function(item){
+  return GUEST_INFO.indexOf(item) > -1
+});
+guest_info = guest_info.length == 0 ? GUEST_INFO :guest_info;
+window.valine = new Valine({
+  el:'#vcomment',
+  notify:notify,
+  verify:verify,
+  appId:'5XAcY9b25LotIBijXP5PVJ3r-gzGzoHsz',
+  appKey:'Abce5UyKPMUks3WoyY2x445P',
+  placeholder:'请输入评论',
+  avatar:'wavata',
+  guest_info:guest_info,
+  pageSize:'20'
+})</script></div></div></div><div class="pure-u-1-4 hidden_mid_and_down"><div id="sidebar"><div class="widget"><div class="search-form"><input id="local-search-input" placeholder="Search" type="text" name="q" results="0"/><div id="local-search-result"></div></div></div><div class="widget"><div class="widget-title"><i class="fa fa-file-o"> 最近文章</i></div><ul class="post-list"><li class="post-list-item"><a class="post-list-link" href="/2019/09/05/covariance/">协方差的意义</a></li><li class="post-list-item"><a class="post-list-link" href="/2019/09/01/PoissonDistribution/">Poisson Distribution</a></li><li class="post-list-item"><a class="post-list-link" href="/2019/08/26/P.B.Shelley_poeam/">回味一首雪莱的诗</a></li><li class="post-list-item"><a class="post-list-link" href="/2019/08/23/permutationAndCombination/">概率中加法和乘法原理以及排列和组合的定义</a></li><li class="post-list-item"><a class="post-list-link" href="/2019/08/18/geometricalMean/">几何平均数</a></li><li class="post-list-item"><a class="post-list-link" href="/2019/08/12/linearAlgebra/">线性代数的本质</a></li><li class="post-list-item"><a class="post-list-link" href="/2019/04/20/zhaku/">写了个前端组件库 - zhaKU</a></li><li class="post-list-item"><a class="post-list-link" href="/2019/01/09/note/">在这做一些日常搜索的笔记</a></li><li class="post-list-item"><a class="post-list-link" href="/2019/01/01/metaclass/">深刻理解Python中的元类(metaclass)（转）</a></li><li class="post-list-item"><a class="post-list-link" href="/2018/12/11/zipPython/">Python内置函数zip</a></li></ul></div><div class="widget"><div class="widget-title"><i class="fa fa-star-o"> 标签</i></div><div class="tagcloud"><a href="/tags/泊松分布/" style="font-size: 15px;">泊松分布</a> <a href="/tags/javascript/" style="font-size: 15px;">javascript</a> <a href="/tags/几何平均数/" style="font-size: 15px;">几何平均数</a> <a href="/tags/nodejs/" style="font-size: 15px;">nodejs</a> <a href="/tags/概率/" style="font-size: 15px;">概率</a> <a href="/tags/vue-js/" style="font-size: 15px;">vue.js</a> <a href="/tags/python/" style="font-size: 15px;">python</a> <a href="/tags/协方差/" style="font-size: 15px;">协方差</a> <a href="/tags/线性代数/" style="font-size: 15px;">线性代数</a></div></div><div class="widget"><div class="widget-title"><i class="fa fa-folder-o"> 分类</i></div><ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/前端/">前端</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/后台/">后台</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/数学/">数学</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/文学/">文学</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/游戏/">游戏</a></li></ul></div></div></div><div class="pure-u-1 pure-u-md-3-4"><div id="footer">Copyright © 2019</div></div></div><a class="show" id="rocket" href="#top"></a><script type="text/javascript" src="/js/totop.js?v=0.0.0" async></script><script type="text/javascript" src="//cdn.bootcss.com/fancybox/3.3.5/jquery.fancybox.min.js" async></script><script type="text/javascript" src="/js/fancybox.js?v=0.0.0" async></script><link rel="stylesheet" type="text/css" href="//cdn.bootcss.com/fancybox/3.3.5/jquery.fancybox.min.css"><script type="text/javascript" src="/js/search.js?v=0.0.0"></script><script>var search_path = 'search.xml';
+if (search_path.length == 0) {
+   search_path = 'search.xml';
+}
+var path = '/' + search_path;
+searchFunc(path, 'local-search-input', 'local-search-result');
+</script><script type="text/x-mathjax-config">MathJax.Hub.Config({
+  tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}
+  });
+</script><script type="text/javascript" src="//cdn.bootcss.com/mathjax/2.7.4/MathJax.js?config=TeX-MML-AM_CHTML" async></script><script type="text/javascript" src="/js/codeblock-resizer.js?v=0.0.0"></script><script type="text/javascript" src="/js/smartresize.js?v=0.0.0"></script></div></body></html>
