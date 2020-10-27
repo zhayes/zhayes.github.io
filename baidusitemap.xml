@@ -1,55 +1,52 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://zhayes.github.io/2018/12/11/create/</loc>
-    <lastmod>2020-10-13T07:53:20.478Z</lastmod>
+    <loc>https://zhayes.github.io/2018/09/20/ranetoLurn/</loc>
+    <lastmod>2020-10-27T05:39:08.579Z</lastmod>
   </url>  <url>
-    <loc>https://zhayes.github.io/2020/06/20/cli/</loc>
-    <lastmod>2020-09-21T09:07:19.753Z</lastmod>
+    <loc>https://zhayes.github.io/2019/08/23/permutationAndCombination/</loc>
+    <lastmod>2020-10-27T05:37:16.687Z</lastmod>
   </url>  <url>
     <loc>https://zhayes.github.io/2020/07/29/restruction/</loc>
-    <lastmod>2020-09-21T08:33:38.252Z</lastmod>
+    <lastmod>2020-10-27T05:34:32.901Z</lastmod>
+  </url>  <url>
+    <loc>https://zhayes.github.io/2019/09/01/PoissonDistribution/</loc>
+    <lastmod>2020-10-27T05:33:01.945Z</lastmod>
+  </url>  <url>
+    <loc>https://zhayes.github.io/2018/12/11/zipPython/</loc>
+    <lastmod>2020-10-27T05:25:59.712Z</lastmod>
+  </url>  <url>
+    <loc>https://zhayes.github.io/2019/04/20/zhaku/</loc>
+    <lastmod>2020-10-27T05:25:37.629Z</lastmod>
+  </url>  <url>
+    <loc>https://zhayes.github.io/2017/12/11/zcalender/</loc>
+    <lastmod>2020-10-27T05:25:25.288Z</lastmod>
+  </url>  <url>
+    <loc>https://zhayes.github.io/2019/01/01/metaclass/</loc>
+    <lastmod>2020-10-27T05:24:56.262Z</lastmod>
+  </url>  <url>
+    <loc>https://zhayes.github.io/2020/06/20/cli/</loc>
+    <lastmod>2020-10-27T05:17:11.711Z</lastmod>
+  </url>  <url>
+    <loc>https://zhayes.github.io/2018/12/04/mario/</loc>
+    <lastmod>2020-10-27T05:16:44.751Z</lastmod>
+  </url>  <url>
+    <loc>https://zhayes.github.io/2019/08/18/geometricalMean/</loc>
+    <lastmod>2020-10-27T05:16:13.627Z</lastmod>
+  </url>  <url>
+    <loc>https://zhayes.github.io/2018/12/11/create/</loc>
+    <lastmod>2020-10-27T05:13:54.921Z</lastmod>
+  </url>  <url>
+    <loc>https://zhayes.github.io/2018/09/18/aPoem/</loc>
+    <lastmod>2020-10-27T05:13:01.678Z</lastmod>
   </url>  <url>
     <loc>https://zhayes.github.io/2019/01/09/note/</loc>
     <lastmod>2020-07-07T06:41:41.850Z</lastmod>
   </url>  <url>
-    <loc>https://zhayes.github.io/2019/09/05/covariance/</loc>
-    <lastmod>2019-09-05T13:36:46.562Z</lastmod>
-  </url>  <url>
-    <loc>https://zhayes.github.io/2019/09/01/PoissonDistribution/</loc>
-    <lastmod>2019-09-01T14:10:39.764Z</lastmod>
-  </url>  <url>
     <loc>https://zhayes.github.io/2019/08/26/P.B.Shelley_poeam/</loc>
     <lastmod>2019-08-25T18:08:56.034Z</lastmod>
   </url>  <url>
-    <loc>https://zhayes.github.io/2019/08/18/geometricalMean/</loc>
-    <lastmod>2019-08-25T17:37:04.370Z</lastmod>
-  </url>  <url>
-    <loc>https://zhayes.github.io/2019/08/23/permutationAndCombination/</loc>
-    <lastmod>2019-08-23T04:14:40.895Z</lastmod>
-  </url>  <url>
-    <loc>https://zhayes.github.io/2018/12/11/zipPython/</loc>
-    <lastmod>2019-08-15T14:39:53.552Z</lastmod>
-  </url>  <url>
-    <loc>https://zhayes.github.io/2018/12/04/mario/</loc>
-    <lastmod>2019-08-15T05:03:26.565Z</lastmod>
-  </url>  <url>
     <loc>https://zhayes.github.io/2019/08/12/linearAlgebra/</loc>
     <lastmod>2019-08-14T02:18:35.233Z</lastmod>
-  </url>  <url>
-    <loc>https://zhayes.github.io/2018/09/20/ranetoLurn/</loc>
-    <lastmod>2019-08-12T08:45:42.180Z</lastmod>
-  </url>  <url>
-    <loc>https://zhayes.github.io/2017/12/11/zcalender/</loc>
-    <lastmod>2019-08-12T07:14:25.801Z</lastmod>
-  </url>  <url>
-    <loc>https://zhayes.github.io/2019/04/20/zhaku/</loc>
-    <lastmod>2019-07-23T09:23:07.990Z</lastmod>
-  </url>  <url>
-    <loc>https://zhayes.github.io/2019/01/01/metaclass/</loc>
-    <lastmod>2019-07-23T09:08:46.831Z</lastmod>
-  </url>  <url>
-    <loc>https://zhayes.github.io/2018/09/18/aPoem/</loc>
-    <lastmod>2019-07-23T09:06:03.688Z</lastmod>
   </url>
 </urlset>
